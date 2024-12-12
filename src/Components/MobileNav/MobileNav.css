@@ -1,0 +1,40 @@
+.ResMobile{
+   @apply lg:hidden  w-[100%] absolute z-10  mt-[15px]
+}
+.all_menu{
+   @apply w-[250px] bg-[#0B192C] px-4 py-8 rounded-2xl
+}
+.mob-logo a{
+   @apply flex gap-2 items-center
+}
+.mob-logo{
+   @apply flex justify-between items-center
+}
+.mob-logo img{
+   @apply w-8
+}
+.menu-icon .main_icon{
+   @apply text-[40px]          
+}
+.mob-logo p{
+   @apply font-semibold text-[18px]
+}
+.mob-logo p span{
+   @apply font-bold
+}
+.Mob-row{
+   @apply flex flex-col
+}
+.Mobile-menu{
+   @apply  flex justify-center items-center gap-2 flex-col 
+}
+
+.Mobile-menu li a{
+   @apply font-semibold font-Inter w-[100px] text-white bg-slate-600 inline-block border-e-red-300 border-[1px] px-2 py-1 rounded-md text-center
+}
+.side_menu_top{
+   @apply flex flex-wrap gap-3 justify-center items-center mt-8 
+}
+.side_menu_top li a{
+   @apply inline-block py-2 bg-[#03346E] rounded-[10px] text-white font-Inter font-bold text-[16px]  border-e-red-50 border-[1px] px-[4px] w-[150px] text-center
+}

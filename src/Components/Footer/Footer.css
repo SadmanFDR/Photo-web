@@ -1,0 +1,27 @@
+.fffffff{
+   @apply bg-[#0B0109] lg:pt-[120px] lg:pb-[120px] pt-10 pb-9
+}
+.main_foo{
+   @apply flex justify-center items-center flex-wrap flex-col gap-2 lg:gap-4
+}
+.logo{
+   @apply flex gap-[10px] items-center
+}
+.logo h3{
+   @apply text-white text-[20px] font-bold
+}
+.fffffff .foo_bar{
+   @apply flex lg:gap-4 flex-wrap gap-3 
+}
+.fffffff .foo_bar li a {
+   @apply inline-block text-white transition-all duration-300 hover:text-red-400 hover:tracking-[2px]
+}
+.fffffff .foot_soc{
+   @apply flex gap-5 flex-wrap
+}
+.fffffff .foot_soc li a{
+   @apply inline-block text-white transition-all duration-300 hover:text-red-400 hover:tracking-[2px]
+}
+.fffffff span{
+   @apply lg:w-[900px] inline-block h-[2px] bg-gradient-to-r from-violet-100 to-pink-300 w-full
+}

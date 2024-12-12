@@ -1,0 +1,117 @@
+.Sadman_photo{
+   @apply lg:pt-[70px] lg:pb-[70px] pt-[20px] pb-[20px] bg-bagCol
+}
+.flex_photo{
+   @apply flex flex-col lg:gap-[48px] gap-5
+}
+.main_photography{
+   @apply flex justify-between items-center lg:px-[200px] flex-wrap
+}
+.main_photography h2{
+   @apply  w-full lg:w-[442px] text-[30px] lg:text-[50px] 2xl:text-[70px] text-white font-Cormorant leading-[40px] lg:leading-[62px]
+}
+.main_photography button{
+   @apply text-ellipsis text-[18px] text-white bg-red-600 w-[160px] h-[30px] duration-300 transition-all hover:bg-bagCol hover:text-red-500 rounded-lg  
+}
+.for_text_photo {
+   @apply flex justify-between items-center flex-wrap lg:px-[200px] gap-3
+}
+.for_text_photo img{
+   @apply w-full lg:w-[370px] lg:h-[450px]
+}
+.for_text_photo p{
+   @apply text-white font-Inter font-normal text-[15px] lg:text-[18px] w-full lg:w-[500px]
+}
+/* =-=-=-=-=-=-=-=-=-=-=-  another part */
+.allpart{
+   @apply flex flex-col lg:gap-[60px] gap-6 pt-[100px] pb-[40px] justify-center items-center
+}
+.allpart h2{
+   @apply  w-full lg:w-[330px] text-[30px] lg:text-[50px] 2xl:text-[60px] text-white font-Cormorant leading-[40px] lg:leading-[62px]
+}
+.pho_car{
+   @apply flex flex-wrap gap-5 lg:gap-[80px] justify-center
+}
+.single_card{
+   @apply flex flex-col gap-4  md:w-[445px] w-[300px]
+}
+.single_card .top{
+   @apply flex justify-between
+}
+.single_card .top h3{
+   @apply text-[22px] md:text-[30px] text-white
+}
+.single_card .top h5{
+   @apply text-red-600 font-bold text-[25px] md:text-[35px]
+}
+.single_card p{
+   @apply text-white font-Inter font-normal lg:text-[18px] w-full md:w-[440px] text-[15px]
+}
+.single_card button{
+   @apply text-ellipsis text-[18px] text-white bg-red-600 w-[160px] h-[30px] duration-300 transition-all hover:bg-bagCol hover:text-red-500 rounded-lg 
+}
+ .niche{
+   @apply flex justify-center items-center w-full
+ }
+ /* =-----------=-=-=-=- THERD PART  */
+ .ready_sadman{
+   @apply flex justify-between flex-wrap lg:mt-[100px] mt-8 lg:px-[80px]
+ }
+ .ready_text_num{
+   @apply flex flex-col flex-wrap
+ }
+ .ready_sadman img{
+   @apply w-full lg:w-[670px] rounded-md
+ }
+ .ready_text_num h2{
+   @apply  w-full lg:w-[360px] text-[30px] lg:text-[50px] 2xl:text-[60px] text-white font-Cormorant leading-[40px] lg:leading-[62px]
+ }
+ .now_cont{
+   @apply flex justify-between flex-wrap items-center
+ }
+ .contract{
+   @apply flex flex-col gap-3 lg:gap-5 mt-4 lg:mt-6
+ }
+ .contract p{
+   @apply text-white text-[15px] transition-all duration-300 hover:text-red-500 lg:text-[18px]
+ }
+ .now_cont button{
+   @apply text-ellipsis text-[18px] text-white bg-red-600 w-[160px] h-[30px] duration-300 transition-all hover:bg-bagCol hover:text-red-500 rounded-lg 
+ }
+ /* =-=-=-=-=-=-=-=-=-=- latest blog */
+ .latest_blog{
+   @apply flex flex-col flex-wrap lg:mt-[120px] mt-[70px]
+ }
+ .blog_for_text{
+   @apply flex justify-between items-center lg:px-[200px]
+ }
+ .blog_for_text h2{
+   @apply  w-full lg:w-[360px] text-[30px] lg:text-[50px] 2xl:text-[60px] text-white font-Cormorant leading-[40px] lg:leading-[62px]
+ }
+ .blog_for_text button{
+   @apply text-ellipsis text-[18px] text-white bg-red-600 w-[160px] h-[30px] duration-300 transition-all hover:bg-bagCol hover:text-red-500 rounded-lg 
+ }
+.sad_blog_img{
+   @apply flex justify-between flex-wrap items-center gap-4 lg:px-[100px]
+}
+.side_img{
+   @apply flex flex-col gap-12 mt-[25px] lg:mt-[48px]
+}
+.side_img .blog_vid img{
+   @apply w-full lg:w-[400px] xl:w-[470px]
+}
+.time {
+   @apply flex gap-4 lg:gap-[24px]
+}
+.blog_vid h3{
+   @apply text-[22px] lg:text-[30px] font-Cormorant font-bold text-white lg:w-[380px] w-full
+}
+.time li{
+   @apply mt-3 text-white text-[13px] font-light font-Cormorant lg:text-[16px]
+}
+.big_blog h3{
+   @apply mt-4 text-[22px] lg:text-[30px] font-Cormorant font-bold text-white lg:w-[450px] w-full
+}
+.big_blog img{
+   @apply w-full lg:w-[470px] xl:w-[570px]
+}

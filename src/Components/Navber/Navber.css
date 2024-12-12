@@ -1,0 +1,27 @@
+.sadman_con{
+   @apply mt-[30px] left-[-14px] absolute z-10 hidden lg:block
+}
+.main_nav{
+   @apply flex items-center 
+}
+.menu{
+   @apply flex gap-6 lg:ml-[100px] lg:mr-[400px] xl:ml-[130px] 2xl:mr-[750px] xl:mr-[600px]
+}
+.menu li a{
+   @apply text-white font-medium text-[16px] font-Inter
+}
+.nav_logo a{
+   @apply flex gap-1 items-center
+}
+.nav_logo span{
+   @apply inline-block text-[20px] font-bold text-white
+}
+.nav_logo a img{
+   @apply h-[42px] 
+}
+.icon .bar{
+   @apply text-white text-[20px]
+}
+.video_part img{
+   @apply w-[160px] 
+} 

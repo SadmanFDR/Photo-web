@@ -1,0 +1,25 @@
+.all_dis{
+   @apply lg:pt-[70px] lg:pb-[170px] pt-[30px] pb-[100px] bg-bagCol
+}
+.main_dis{
+   @apply flex gap-6 lg:gap-[48px] flex-col items-center
+}
+.main_dis .heading{
+   @apply  w-full lg:w-[420px] text-[30px] lg:text-[50px] 2xl:text-[70px] text-white font-Cormorant leading-[40px] lg:leading-[62px] text-center
+}
+.all_dis ul{
+   @apply flex gap-2 lg:gap-4 flex-wrap 
+}
+.all_dis ul li a{
+   @apply inline-block text-white text-[18px] font-Cormorant font-semibold  duration-300 transition-all  hover:text-red-500
+}
+.cards{
+   @apply flex flex-wrap lg:gap-[30px] gap-3 
+}
+.all_dis .cards .absu img{
+   @apply w-full lg:w-[300px] lg:h-[300px] duration-300 transition-all hover:h-[400px]
+ }
+
+ .all_dis button{
+   @apply text-ellipsis text-[18px] text-white bg-red-600 w-[160px] h-[30px] duration-300 transition-all hover:bg-bagCol hover:text-red-500 rounded-lg  mt-[20px] lg:mt-[40px]
+ }

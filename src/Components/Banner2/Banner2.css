@@ -1,0 +1,12 @@
+.Ban2sadman_con{
+   @apply pt-12 lg:pt-[120px] bg-bagCol w-full
+}
+.for_logo{
+   @apply flex justify-center items-center
+}
+.for_logo ul{
+   @apply flex lg:gap-[30px] flex-wrap xl:w-[1170px] justify-center items-center
+}
+.for_logo ul li a{
+   @apply inline-block w-[270px] h-[100px]
+}

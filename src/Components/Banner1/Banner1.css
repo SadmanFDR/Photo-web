@@ -1,0 +1,112 @@
+.sadman_ban{
+   @apply  pb-5 lg:pb-[50px] pt-[70px]
+}
+.main_div{
+   @apply flex lg:gap-[220px] xl:gap-[280px] 2xl:gap-[540px] flex-wrap lg:flex-nowrap
+}
+
+.heading{
+   @apply flex flex-wrap lg:mt-[120px] 
+}
+.heading h1{
+   @apply w-full xl:w-[482px] lg:w-[422px] font-medium font-Cormorant xl:text-[80px] lg:text-[55px] md:text-[50px] text-white xl:leading-[80px] lg:mr-[100px]
+}
+.heading p{
+   @apply text-[18px] font-medium text-white w-full md:w-[400px] lg:w-[450px] mt-[20px] lg:mt-[40px] lg:mb-[72px] 
+}
+/* =================    side nav     ===================== */
+.hodai{
+ @apply  hidden lg:block
+}
+.menu_soc{
+   @apply w-20 h-screen flex flex-col items-center justify-center fixed  xl:right-[25px] top-0 gap-[80px]
+}
+.menu_soc li{
+@apply my-5 transform -rotate-90 text-white text-sm font-medium hover:text-blue-400
+}
+/* =================    side nav end    ===================== */
+
+.menu_soc li a{
+   @apply  rotate-90
+}
+
+.main_div{
+   @apply   lg:top-[148px] lg:right-[190px] xl:right-[225px]
+}
+.video{
+   @apply w-[470px] h-[300px] rounded-md lg:ml-10
+}
+.video_part{
+   @apply relative 
+}
+.video_part img{
+   @apply absolute hover:rotate-180 top-[80px] left-[-40px] w-[110px] lg:w-[150px] 
+}
+
+.side_text{
+   @apply lg:mt-[700px]
+}
+
+.side_text p{
+   @apply text-white w-[210px] font-medium font-Inter text-[16px]
+}
+/* =-=-=-=-=-=-    enjoy poson  =-=-=-=-=-=-=-=-=-=- */
+.enjoy_main_part{
+   @apply flex flex-wrap lg:mt-[120px] mt-10
+}
+.for_imag_eng{
+   @apply flex flex-wrap gap-4 lg:gap-0
+}
+.eng_heading{
+   @apply flex flex-col gap-3 lg:gap-0
+}
+.eng_heading .two_friend{
+   @apply w-full lg:w-[370px]
+}
+.eng_heading .text_img{
+   @apply w-[135px] lg:mb-[70px] mb-5
+}
+.eng_heading .four_img{
+   @apply w-full lg:w-[600px] xl:w-[850px]
+}
+.eng_heading h2{
+   @apply w-full lg:w-[465px] text-[30px] lg:text-[50px] 2xl:text-[70px] text-white font-Cormorant lg:mb-[48px] mb-5 md:leading-[50px] lg:leading-[62px]
+}
+.for_text{
+   @apply flex flex-wrap mt-[60px] justify-center w-full text-center gap-3 lg:gap-0
+}
+.for_text .one_par{
+   @apply w-full lg:w-[432px] font-DMSans font-medium text-white mr-[70px]
+}
+.for_text .two_par{
+   @apply  w-full lg:w-[332px] font-DMSans font-medium text-white
+}
+.for_text img{
+   @apply w-[35px] h-[35px] mr-[30px]
+}
+.for_text .for_but{
+   @apply flex flex-col
+}
+.for_text button{
+   @apply text-ellipsis text-[18px] text-white bg-red-600 w-[160px] h-[30px] duration-300 transition-all hover:bg-bagCol hover:text-red-500 rounded-lg  mt-[20px] lg:mt-[40px]
+}
+
+/* =-=-=-=-=-=-=-=- for hill poson */
+.for_flex{
+   @apply flex w-full text-center pt-3 m-auto
+}
+.for_hill{
+   @apply flex flex-wrap gap-6 lg:pt-[130px] lg:pb-[170px] items-center justify-center w-full
+}
+.for_hill h2{
+   @apply  w-full lg:w-[312px] text-[30px] lg:text-[50px] 2xl:text-[70px] text-white font-Cormorant leading-[40px] lg:leading-[62px]
+}
+.for_hill img{
+   @apply w-full lg:w-[470px]
+}
+.for_hill ul{
+   @apply flex flex-col gap-3
+}
+.for_hill ul li{
+   @apply text-white text-[17px] font-Inter font-semibold transition-all duration-300 hover:text-red-500
+}
