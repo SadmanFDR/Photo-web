@@ -1,11 +1,12 @@
 import React from 'react'
 import './Banner1.css'
 import { Link } from 'react-router-dom'
+import mainBG from '..//../assets/image/banner.jpg'
 
 const Banner1 = () => {
   return (
     <>
-<div className="sadman_ban">
+<div style={{background: `url(${mainBG})`,widows: '100%', backgroundRepeat:'no-repeat', backgroundPosition:'center', backgroundSize:'cover'}} className="sadman_ban">
 
 <div className="container">
 <div className="main_div">
